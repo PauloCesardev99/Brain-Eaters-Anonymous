@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+}
+
+
+img{
+    width: 100%;
+}
+
+
+html{
+    font-size: 65%;
+}

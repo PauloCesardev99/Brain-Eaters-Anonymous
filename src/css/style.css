@@ -1,0 +1,150 @@
+/* Cabecalho */
+
+
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    padding: 10px;
+    font-size: 1.6rem;
+    
+  
+}
+
+.cabecalho nav ul li {
+    margin-top: 10px;
+    padding: 10px;
+   
+   
+  
+}
+
+.cabecalho nav ul li a {
+   color: white;
+   padding: 12px;
+   border-radius: 10px;
+   font-weight: bolder;
+}
+  
+
+
+
+.cabecalho nav ul li a:hover{
+    background-color: rgb(226, 43, 43);
+    transition: 0.60s;}
+    
+
+.logo img{
+    margin-top: 10px;
+    width: 100px;
+    padding-left: 30px;}
+
+
+/*principal*/
+
+.principal{
+    padding: 15px;
+}
+
+section{
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+}
+
+section article{
+    margin-top: 20px;
+}
+
+section article h1{
+
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+section article p{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 1.6rem;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+margin: 50px;
+
+}
+
+button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border: solid 2px black;
+    box-shadow: 2px 3px 2px black;
+    
+}
+
+ button:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 1s;
+    
+}
+
+.imagem-principal {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+
+.imagem-principal img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px black;
+}
+
+/* rodape */
+
+.rodape{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.877);
+
+}
+
+.rodape div{
+    margin: 20px;
+    
+}
+
+.rodape div h1{
+    color: white;
+}
+.rodape div h1:hover{
+    color: red;
+    transition: 0.60s;
+    font-size: 2.0rem;
+
+}
+ 
+.rodape ul li{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+}
+.rodape ul li a{
+   color: white;
+   
+    
+}
+
+
+
+.rodape ul li a:hover{
+    color:red;
+    font-size: 2.0rem;
+    transition: 0.60s;
+    
+     
+ }

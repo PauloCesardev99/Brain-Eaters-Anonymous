@@ -1,0 +1,123 @@
+/* cabecalho */
+
+
+@media(min-width:600px) {
+
+    body{
+        display: grid;
+        grid-template-areas: "cabecalho cabecalho"
+                                "home home"
+                                "guia guia"
+                                "virus virus"
+                                "loja loja"
+                                "zumbi zumbi"
+                                "sobrenos sobrenos"
+                                "sobrevivente sobrevivente"
+                                "rodape rodape";
+        
+
+    }
+
+    .cabecalho{
+        grid-area: cabecalho;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .cabecalho nav ul{
+        display: flex;
+    }
+
+    .home{
+        display: grid;
+        grid-area: home;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section{
+        border-bottom: none;
+    }
+
+    section article h1{
+        font-size: 2.5rem;
+    }
+
+    section article p{
+        font-size: 2.0rem;
+    }
+    .guia{
+        display: grid;
+        grid-area: guia;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-o-virus{
+        display: grid;
+        grid-area: virus;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .loja{
+        display: grid;
+        grid-area: loja;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .zumbi{
+        display: grid;
+        grid-area: zumbi;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre-nos{
+        display: grid;
+        grid-area: sobrenos;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobrevivente{
+        display: grid;
+        grid-area: sobrevivente;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .rodape{
+        grid-area: rodape;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        
+
+    }
+
+    .rodape ul{
+        display: flex;
+    }
+
+    .rodape ul li{
+        padding-left: 10px;
+    }
+
+
+    /* Imagem*/
+
+    .imagem-principal{
+        width: 400px;
+       
+    }
+
+    .principal article:last-child{
+        margin-left: 100px;
+    }
+
+
+
+   
+
+
+
+}
+
