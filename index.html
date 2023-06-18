@@ -8,16 +8,24 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header class="cabecalho">
 
         <div class="logo">
-            <a href="index.html"><img src="src/img/logo-zumbi.jpg" alt="logo-zumbi"></a>
+            <a href="index.html"><img src="src/img/imgs-formatadas/logo-zumbi.jpg" alt="logo-zumbi"></a>
         </div>
 
-        <nav>
+        <menu class="menu">
+            <img src="src/img/imgs-formatadas/menu (1).png" alt="menu-1" class="menu1">
+            <img src="src/img/imgs-formatadas/menu (1).png" alt="menu-2" class="menu1">
+        </menu>
+
+        <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="guia/index.html" target="_blank">Guia</a></li>
@@ -48,7 +56,7 @@
             <article>
           
                     <div class="imagem-principal">
-                    <img src="src/img/logo-zumbi.jpg" alt="logo-zumbi">
+                    <img src="src/img/imgs-formatadas/logo-zumbi.jpg" alt="logo-zumbi">
                     </div>
            
                     <div class="btn">
@@ -71,7 +79,7 @@
                 
                 <div class="imagem-principal">
 
-                    <img src="src/img/guia-anti-zumbi.jpg" alt="Soldado sobrevivente">
+                    <img src="src/img/imgs-formatadas/guia-anti-zumbi.jpg" alt="Soldado sobrevivente">
 
                 </div>
 
@@ -99,7 +107,7 @@
 
                 <article>
                     <div class="imagem-principal">
-                        <img src="src/img/foto-virus.jpg" alt="Virus">
+                        <img src="src/img/imgs-formatadas/foto-virus.jpg" alt="Virus">
                     </div>
 
 
@@ -138,7 +146,7 @@
             <article>
 
                 <div class="imagem-principal"> 
-                    <img src="src/img/logo-loja-zumbi.jpg" alt="Loja">
+                    <img src="src/img/imgs-formatadas/logo-loja-zumbi.jpg" alt="Loja">
                 </div>
 
                 <div class="btn">
@@ -155,14 +163,16 @@
         <section class="zumbi">
             <article>
                 <h1>Zumbis</h1>
-                <p>Aqui você vai encontrar tudo sobre os infectados e como infrenta-los</p>
+                <p>Os zumbis infectados pelo Vírus Curpse são uma ameaça altamente perigosa para a humanidade. Esse Vírus desencadeia uma mutação genética que torna os indivíduos suscetíveis à infecção, transformando os em mortos-vivos com comportamento agressivo e sedentos de carne humana.</p>
+
+                <p>Os Zumbis infectados pelo Vírus Curpse apresetam características físicas marcantes, como a pele cinza, cabelo desgrenhados, olhos vazios e dentes expostos. eles também enitem sons guturais e desarticulados, o que torna sua presença facilmente identificável. O contágio pode ocrrer por meio da saliva e do sangue dos zumbis, por isso é importante manter-se protegido e evitar o contato com esses seres.</p>
 
             </article>
 
             <article>
 
                 <div class="imagem-principal"> 
-                    <img src="src/img/zumbi.jpg" alt="Zumbis">
+                    <img src="src/img/imgs-formatadas/zumbi.jpg" alt="Zumbis">
                 </div>
                 <div class="btn">
                     <button> <a href="zumbis/index.html">Zumbis</a> </button>
@@ -183,7 +193,7 @@
             <article>
 
                 <div class="imagem-principal"> 
-                    <img src="src/img/logo-zumbi.jpg" alt="logo do grupo">
+                    <img src="src/img/imgs-formatadas/logo-zumbi.jpg" alt="logo do grupo">
                 </div>
 
                 <div class="btn">
@@ -199,14 +209,16 @@
             <article>
                 <h1>Sobreviventes</h1>
 
-                <p>Aqui você vai encontrar sobre os membros do grupo Brain-Eaters Anonymous </p>
+                <p>O Grupo Brain-Eaters Anonymous é composto por um grupo  de indivíduos que sobreviveram ao Apocalipse zumbi. Eles se uniram para lutar contra os mortos-vivos que tomaram conta do mundo e proteger uns aos outros em um mundo pós-apocalíptico. O grupo é formado por pessoas de diversas origens, cada uma com habilidades e conhecimentos únicos que ajudam na sobrevivência diária.</p>
+
+                <p>Os membros do grupo Brain-Eaters Anonymous passaram por situações extremas e se tornaram muito próximos, formando uma verdadeira família. Eles lutam pelo bem comum, ajudando uns aos outros a superar as dificuldades e a encontrar soluções para os desafios que enfrentam diaramente. O grupo é liderado por um indivíduo forte, que é respetado por todos e que visa manter a ordem e a segurança do grupo. Unidos e determinados, eles Seguem Lutando pela sobrevivência e pela possibilidade de um dia reconstruir o mundo que um dia conheceram.</p>
 
             </article>
 
             <article>
 
                 <div class="imagem-principal"> 
-                    <img src="src/img/soldado-zumbi.jpg" alt="membros-do-grupo">
+                    <img src="src/img/imgs-formatadas/soldado-zumbi.jpg" alt="membros-do-grupo">
                 </div>
 
                 <div class="btn">
@@ -230,12 +242,18 @@
         </div>
 
         <ul>
-            <li><a href="#">Instagram</a></li>
+            <li><a href="https://www.instagram.com/r3ro_w/">Instagram</a></li>
             <li><a href="https://www.linkedin.com/in/r3ro/">linkedin</a></li>
             <li><a href="https://github.com/PauloCesardev99">Github</a></li>
         </ul>      
 
     </footer>
-    
+
+
+
+    <script src="index.js"></script>
+
+
+
 </body>
 </html>

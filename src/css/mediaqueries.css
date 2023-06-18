@@ -24,10 +24,24 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+        position: fixed;
+        width: 100%;
     }
 
     .cabecalho nav ul{
         display: flex;
+    }
+
+    .cabecalho nav{
+        display: block;
+    }
+
+    .cabecalho .menu img{
+        display: none;
+    }
+
+    .principal{
+       margin-top: 104px;
     }
 
     .home{
