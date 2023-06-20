@@ -69,6 +69,7 @@ nav{
 
 .principal{
     padding: 15px;
+
 }
 
 section{
@@ -80,8 +81,8 @@ section article{
     margin-top: 20px;
 }
 
-section article h1{
-
+section article h1, section article h3, section article h2{
+    margin-top: 10px;
     text-align: center;
     font-size: 1.8rem;
 
@@ -91,6 +92,7 @@ section article p{
     margin-top: 10px;
     line-height: 30px;
     font-size: 1.6rem;
+   text-justify: auto;
 }
 
 .btn{
@@ -171,3 +173,11 @@ button{
     
      
  }
+
+
+ /*                                GUIA                                   */
+
+ .imagem-guia{
+    margin-top: 30px;
+ }
+
