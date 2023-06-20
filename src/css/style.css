@@ -119,6 +119,7 @@ button{
 }
 
 .imagem-principal {
+    margin-top: 10px;
     text-align: center;
     width: 200px;
     margin: auto;

@@ -28,23 +28,7 @@
 
 
 
-.rodape{
-    grid-area: rodape;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    
 
-}
-
-.rodape ul{
-    display: flex;
-}
-
-.rodape ul li{
-    padding-left: 10px;
-}
 
 /* Principal guia*/
 
@@ -82,6 +66,24 @@
 
 section{
     border: none
+}
+
+.rodape{
+    grid-area: rodape;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+.rodape ul{
+    display: flex;
+}
+
+.rodape ul li{
+    padding-left: 10px;
 }
 
 }
