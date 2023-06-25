@@ -92,6 +92,7 @@ section article p{
     margin-top: 10px;
     line-height: 30px;
     font-size: 1.6rem;
+    text-align: center;
    text-justify: auto;
 }
 
@@ -127,6 +128,8 @@ button{
 
 
 .imagem-principal img{
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 50%;
     box-shadow: 2px 2px 12px black;
 }
@@ -134,6 +137,7 @@ button{
 /* rodape */
 
 .rodape{
+    padding: 25px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.877);
 
@@ -182,3 +186,53 @@ button{
     margin-top: 30px;
  }
 
+
+
+
+
+
+ /*Campo de alistamento */
+
+ .campo-de-alistamento{
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+
+ }
+
+ .campo-de-alistamento input{
+    border: solid 2px black;
+    width: 50%;
+    height: 30px;
+ }
+
+
+ /* Loja */
+
+ .background-loja{
+    height: 400px;
+    background: black url(../../src/img/armario-armas.jpg) no-repeat center center;
+    background-size: cover;
+ }
+
+
+ .produtos{
+    
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    text-indent: 3px;
+    text-justify: distribute-all-lines;
+    border: solid 4px black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+ }
+
+.imagem-produtos > img{
+
+    width: 250px;
+    margin: 50px 0px 50px 0px;
+    border-radius: 30px;
+    border: solid 1px black;
+}

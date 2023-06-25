@@ -1,0 +1,76 @@
+ @media (min-width: 600px) {
+
+    /*Cabecalho sobre-nos */
+
+    .cabecalho{
+        grid-area: cabecalho;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+    }
+
+    .cabecalho nav ul{
+        display: flex;
+    }
+
+    .cabecalho nav{
+        display: block;
+    }
+
+    .cabecalho .menu img{
+        display: none;
+    }
+
+    .imagem-principal {
+            margin-top: 20px;
+            margin-bottom: 20px;}
+
+
+            .principal-loja{
+                padding-top: 120px;
+        
+        }
+
+
+
+        .produto{
+            display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+        }
+
+        .produtos{
+            width: 400px;
+        }
+
+
+
+
+
+/* RODAPÉ */
+
+        .rodape{
+            grid-area: rodape;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            
+        
+        }
+        
+        .rodape ul{
+            display: flex;
+        }
+        
+        .rodape ul li{
+            padding-left: 10px;
+        }
+        
+        
+
+    
+ }

@@ -1,0 +1,75 @@
+@media (min-width: 600px) {
+
+
+    .cabecalho{
+        grid-area: cabecalho;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+    }
+
+    .cabecalho nav ul{
+        display: flex;
+    }
+
+    .cabecalho nav{
+        display: block;
+    }
+
+    .cabecalho .menu img{
+        display: none;
+    }
+
+
+    /* Conteúdo Principal */
+
+    .principal{
+        padding-top: 135px;
+        width: 800px;
+        margin: auto;
+        border: solid 3px black;
+        box-shadow: 2px 4px 6px black;
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+         }
+
+         section{
+            border: none;
+         }
+
+
+         .imagem-principal.imagem-virus img{
+            width: 200px;
+            border-radius: 10%;
+         }
+
+        .imagem-gif-zumbi img{
+                width: 200px;
+            border-radius: 10%;
+
+         }
+
+
+
+         .rodape{
+            grid-area: rodape;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            
+    
+        }
+    
+        .rodape ul{
+            display: flex;
+        }
+    
+        .rodape ul li{
+            padding-left: 10px;
+        }
+    
+}
