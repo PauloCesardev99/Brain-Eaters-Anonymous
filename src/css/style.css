@@ -90,10 +90,11 @@ section article h1, section article h3, section article h2{
 
 section article p{
     margin-top: 10px;
-    line-height: 30px;
+    line-height: 35px;
+    padding: 10px;
     font-size: 1.6rem;
-    text-align: center;
-   text-justify: auto;
+    text-align: justify;
+    
 }
 
 .btn{
@@ -210,10 +211,28 @@ button{
  /* Loja */
 
  .background-loja{
-    height: 400px;
-    background: black url(../../src/img/armario-armas.jpg) no-repeat center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    background: url('https://images3.alphacoders.com/673/thumb-1920-673056.png') no-repeat center center;
     background-size: cover;
  }
+
+
+.setas{
+    cursor: pointer;
+    
+}
+
+ .seta-esquerda img{
+    transform: rotate(180deg);
+}
+
+
+ .background-loja .setas .seta img{
+    width: 100px;
+}
 
 
  .produtos{
@@ -223,11 +242,12 @@ button{
     margin: auto;
     text-align: center;
     text-indent: 3px;
-    text-justify: distribute-all-lines;
     border: solid 4px black;
     margin-top: 50px;
     margin-bottom: 30px;
  }
+
+
 
 .imagem-produtos > img{
 

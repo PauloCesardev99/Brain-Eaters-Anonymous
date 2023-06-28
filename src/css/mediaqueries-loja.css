@@ -35,6 +35,16 @@
         }
 
 
+        .background-loja .setas .seta img{
+            width: 100px;
+        }
+
+
+        .setas{
+            display: block;
+        }
+
+
 
         .produto{
             display: flex;
@@ -44,8 +54,15 @@
 
         .produtos{
             width: 400px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
         }
 
+        .produtos button{
+           margin-top: 10px;
+        }
 
 
 
