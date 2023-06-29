@@ -43,7 +43,7 @@ for(let i = 0; i< setas.length; i++){
             setas[4].style.display="none"
             
             
-            window.alert("Voltou para imagem 1")
+            
             
 
         }
@@ -54,8 +54,7 @@ for(let i = 0; i< setas.length; i++){
 
             setas[1].style.display="block"
             setas[4].style.display="block"
-            window.alert("imagem-2-inserida")
-    
+            
 
             
 
@@ -74,7 +73,7 @@ for(let i = 0; i< setas.length; i++){
 
             setas[2].style.display="none"
             setas[5].style.display="none"
-            window.alert("voltou imagem-2")
+           
         }
         else{
             window.alert("Não tem imagem")

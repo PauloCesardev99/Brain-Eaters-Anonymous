@@ -30,7 +30,7 @@ for(let i = 0; i < menu.length; i++){
     if(nome.value == "" || idade.value == "" || sexo.value == ""){
         window.alert("Preencha todos os campos")
     } else{
-        window.alert(`Seja bem-vindo soldado! ${nome.value}`)
+        window.alert(`Seja bem-vindo soldado ao seu novo lar! ${nome.value}`)
     }
 
 

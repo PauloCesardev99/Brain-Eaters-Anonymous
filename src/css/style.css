@@ -256,3 +256,20 @@ button{
     border-radius: 30px;
     border: solid 1px black;
 }
+
+
+
+/* Sobreviventes */
+
+.sobreviventes{
+    padding: 10px;
+    border: solid 4px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.imagem-sobrevivente > img{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
