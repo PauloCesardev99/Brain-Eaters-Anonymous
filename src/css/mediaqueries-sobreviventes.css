@@ -5,7 +5,7 @@
      body{
         display: grid;
         grid-template-areas: "cabecalho" "cabecalho" "cabecalho" "cabecalho"
-        "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente"
+        "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente" 
         "sobrevivente1"     "sobrevivente1"     "sobrevivente1"     "sobrevivente1" 
         "sobrevivente2"     "sobrevivente2"   "sobrevivente2"   "sobrevivente2" 
         "rodape"   "rodape"   "rodape"   "rodape"
@@ -18,9 +18,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;
         position: fixed;
         width: 100%;
+        align-items: center;
+      
     }
 
     .cabecalho nav ul{
@@ -36,44 +37,58 @@
     }
 
 
-    .background-sobrevivente{
+
+    .background-sobreviventes{
      grid-area: background-sobrevivente;
+        padding: 135px 0px 0px 0px;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: center;
+        
     }
+
+    section{
+        border: none;
+    }
+
+
+
 
     .sobreviventes-1{
         display: grid;
         grid-area: sobrevivente1 ;
-        gap: 5px;
        grid-template-columns: repeat(2, 1fr);
     }
+
+    .sobreviventes-2{
+        display: grid;
+        grid-area: sobrevivente2;
+       grid-template-columns: repeat(4, 1fr);
+    }
+    
+    
+    
+                /* rodape */
+    
+    
+                .rodape{
+                    grid-area: rodape;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    
+                
+                }
+                
+                .rodape ul{
+                    display: flex;
+                }
+                
+                .rodape ul li{
+                    padding-left: 10px;
+                }
     
 }
 
-.sobreviventes-2{
-    display: grid;
-    grid-area: sobrevivente2;
-   grid-template-columns: repeat(4, 2fr);
-}
-
-
-
-            /* rodape */
-
-
-            .rodape{
-                grid-area: rodape;
-                display: flex;
-                justify-content: space-around;
-                flex-wrap: wrap;
-                align-items: center;
-                
-            
-            }
-            
-            .rodape ul{
-                display: flex;
-            }
-            
-            .rodape ul li{
-                padding-left: 10px;
-            }
