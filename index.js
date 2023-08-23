@@ -1,3 +1,6 @@
+
+
+
 const menu = [...window.document.querySelectorAll("menu > img")]
 const nav = window.document.getElementById("nav")
 
@@ -10,7 +13,7 @@ const setas = [...window.document.querySelectorAll(".seta >img")]
 /* Menu */
 
 for(let i = 0; i < menu.length; i++){
-    menu[i].addEventListener("click", function abrirFecharMenu(){
+      menu[i].addEventListener("click", function abrirFecharMenu(){
         if (menu[i] == menu[0]){
             menu[0].style.display ="none"
             menu[1].style.display ="inline-block"
@@ -82,6 +85,18 @@ for(let i = 0; i< setas.length; i++){
 
     })
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

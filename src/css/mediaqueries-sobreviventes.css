@@ -2,16 +2,7 @@
 
      /*Cabecalho sobre-nos */
 
-     body{
-        display: grid;
-        grid-template-areas: "cabecalho" "cabecalho" "cabecalho" "cabecalho"
-        "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente"  "background-sobrevivente" 
-        "sobrevivente1"     "sobrevivente1"     "sobrevivente1"     "sobrevivente1" 
-        "sobrevivente2"     "sobrevivente2"   "sobrevivente2"   "sobrevivente2" 
-        "rodape"   "rodape"   "rodape"   "rodape"
-
-
-     }
+     
 
      .cabecalho{
         grid-area: cabecalho;
@@ -36,36 +27,24 @@
         display: none;
     }
 
+    
+    /* Sobrevivente*/
+
+    .sobrevivente{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
 
-    .background-sobreviventes{
-     grid-area: background-sobrevivente;
-        padding: 135px 0px 0px 0px;
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       align-content: center;
+    .sobreviventes{
+
+        width: 400px;
         
     }
 
-    section{
-        border: none;
-    }
 
-
-
-
-    .sobreviventes-1{
-        display: grid;
-        grid-area: sobrevivente1 ;
-       grid-template-columns: repeat(2, 1fr);
-    }
-
-    .sobreviventes-2{
-        display: grid;
-        grid-area: sobrevivente2;
-       grid-template-columns: repeat(4, 1fr);
-    }
+  
     
     
     
@@ -73,7 +52,7 @@
     
     
                 .rodape{
-                    grid-area: rodape;
+                   
                     display: flex;
                     justify-content: space-around;
                     flex-wrap: wrap;

@@ -261,15 +261,24 @@ button{
 
 /* Sobreviventes */
 
+
+
 .sobreviventes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px;
     border: solid 4px rgb(0, 0, 0);
-    text-align: center;
 }
 
 .imagem-sobrevivente > img{
-    margin-top: 50px;
     width: 250px;
     height: 250px;
     border-radius: 10%;
+}
+
+.background-sobreviventes{
+    border: none;
 }
